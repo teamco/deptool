@@ -15,8 +15,8 @@
     <td><%= app.name %></td>
     <td><%= app.state %></td>
     <td><%= app.path %></td>
-    <td><%= app.landscape.name %></td>
-    <td><%= app.branch.name %></td>
+    <td><%= app.landscape.try(:name) %></td>
+    <td><%= app.branch.try(:name) %></td>
     <td class="action"><%= link_to 'Show', app %></td>
     <td class="action"><%= link_to 'Edit', edit_app_path(app) %></td>
     <td class="action"><%= link_to 'Destroy', app, method: :delete, data: { confirm: 'Are you sure?' } %></td>
