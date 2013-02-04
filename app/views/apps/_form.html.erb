@@ -1,0 +1,46 @@
+<%= form_for(@app) do |f| %>
+    <% if @app.errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@app.errors.count, 'error') %> prohibited this app from being saved:</h2>
+
+          <ul>
+            <% @app.errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name %>
+      <br/>
+      <%= f.text_field :name %>
+    </div>
+    <div class="field">
+      <%= f.label :state %>
+      <br/>
+      <%= f.check_box :state %>
+    </div>
+    <div class="field">
+      <%= f.label :path %>
+      <br/>
+      <%= f.text_field :path %>
+    </div>
+
+    <div class="field">
+      <label>Landscape</label>
+      <br />
+      <%= f.select 'landscape_id', @landscapes, {:include_blank => 'Please select landscape'} %>
+    </div>
+
+    <div class="field">
+      <label>Branches</label>
+      <br />
+      <%= f.select 'branch_id', @branches, {:include_blank => 'Please select branch'} %>
+    </div>
+
+    <div class="actions">
+      <br />
+      <%= f.submit %>
+    </div>
+<% end %>
