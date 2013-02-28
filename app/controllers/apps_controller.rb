@@ -1,4 +1,7 @@
 class AppsController < ApplicationController
+
+  #include ShellCommand
+
   # GET /apps
   # GET /apps.json
   def index
@@ -27,6 +30,7 @@ class AppsController < ApplicationController
     @app = App.new
     @landscapes = Landscape.all.collect {|p| [ p.name, p.id ] }
     @branches = Branch.all.collect {|p| [ p.name, p.id ] }
+    @scripts = ExternalScript.all.collect {|p| [ p.script, p.id ] }
 
     respond_to do |format|
       format.html # new.html.erb
@@ -41,20 +45,30 @@ class AppsController < ApplicationController
     @app = App.find(params[:id])
   end
 
+  def run_command
+    script = @app.script
+
+    system_quietly('ls')
+
+    format.html { redirect_to @app, notice: 'App was successfully created.' }
+    format.json { render json: @app, status: :created, location: @app }
+
+  end
+
   # POST /apps
   # POST /apps.json
   def create
     @app = App.new(params[:app])
-
-    respond_to do |format|
-      if @app.save
-        format.html { redirect_to @app, notice: 'App was successfully created.' }
-        format.json { render json: @app, status: :created, location: @app }
-      else
-        format.html { render action: 'new' }
-        format.json { render json: @app.errors, status: :unprocessable_entity }
-      end
-    end
+    run_command
+    #respond_to do |format|
+    #  if @app.save
+    #    format.html { redirect_to @app, notice: 'App was successfully created.' }
+    #    format.json { render json: @app, status: :created, location: @app }
+    #  else
+    #    format.html { render action: 'new' }
+    #    format.json { render json: @app.errors, status: :unprocessable_entity }
+    #  end
+    #end
   end
 
   # PUT /apps/1

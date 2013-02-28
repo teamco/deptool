@@ -1,0 +1,21 @@
+<h1>Listing external_scripts</h1>
+
+<table>
+  <tr>
+    <th>Script</th>
+    <th colspan="3">?</th>
+  </tr>
+
+<% @external_scripts.each do |external_script| %>
+  <tr>
+    <td><%= external_script.script %></td>
+    <td class="action"><%= link_to 'Show', external_script %></td>
+    <td class="action"><%= link_to 'Edit', edit_external_script_path(external_script) %></td>
+    <td class="action"><%= link_to 'Destroy', external_script, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New External script', new_external_script_path %>

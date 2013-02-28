@@ -39,6 +39,12 @@
       <%= f.select 'branch_id', @branches, {:include_blank => 'Please select branch'} %>
     </div>
 
+    <div class="field">
+      <label>Scripts</label>
+      <br />
+      <%= f.select 'external_script_id', @scripts, {:include_blank => 'Please select script'} %>
+    </div>
+
     <div class="actions">
       <br />
       <%= f.submit %>

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20130204092028) do
+ActiveRecord::Schema.define(:version => 20130225113132) do
 
   create_table "apps", :force => true do |t|
     t.string   "name"
@@ -19,8 +19,9 @@ ActiveRecord::Schema.define(:version => 20130204092028) do
     t.integer  "branch_id"
     t.boolean  "state"
     t.string   "path"
-    t.datetime "created_at",   :null => false
-    t.datetime "updated_at",   :null => false
+    t.datetime "created_at",         :null => false
+    t.datetime "updated_at",         :null => false
+    t.integer  "external_script_id"
   end
 
   create_table "branches", :force => true do |t|
@@ -29,7 +30,19 @@ ActiveRecord::Schema.define(:version => 20130204092028) do
     t.datetime "updated_at", :null => false
   end
 
+  create_table "external_scripts", :force => true do |t|
+    t.string   "script"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
   create_table "landscapes", :force => true do |t|
+    t.string   "name"
+    t.datetime "created_at", :null => false
+    t.datetime "updated_at", :null => false
+  end
+
+  create_table "names", :force => true do |t|
     t.string   "name"
     t.datetime "created_at", :null => false
     t.datetime "updated_at", :null => false

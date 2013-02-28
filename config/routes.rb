@@ -1,4 +1,10 @@
 Deptool::Application.routes.draw do
+  resources :names
+
+
+  resources :external_scripts
+
+
   resources :apps
 
 
