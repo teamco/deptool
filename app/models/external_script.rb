@@ -1,5 +1,5 @@
 class ExternalScript < ActiveRecord::Base
   attr_accessible :script
 
-  has_many :apps
+  belongs_to :app
 end

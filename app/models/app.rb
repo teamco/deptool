@@ -3,5 +3,6 @@ class App < ActiveRecord::Base
 
   belongs_to :landscape
   belongs_to :branch
-  belongs_to :external_script
+
+  has_many :external_scripts
 end

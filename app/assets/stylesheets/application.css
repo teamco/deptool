@@ -57,7 +57,7 @@ li {
 }
 
 table {
-    width: 600px;
+    min-width: 600px;
     border: 1px solid #ccc;
     margin-top: 20px;
 }
@@ -66,6 +66,11 @@ th {
     padding: 2px 10px;
     background-color: lightgreen;
 }
+
+td {
+    padding: 2px 10px;
+}
+
 td.action {
     background-color: lightblue;
     text-align: center;

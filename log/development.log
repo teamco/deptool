@@ -26970,3 +26970,4338 @@ Processing by AppsController#run_command as JS
   [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 1 LIMIT 1
   Rendered apps/run_command.js.erb (0.1ms)
 Completed 200 OK in 8ms (Views: 1.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:19:40 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLandscape Load (0.2ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/_form.html.erb (7.9ms)
+  Rendered apps/edit.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 35ms (Views: 31.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:40 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:41 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  Rendered external_scripts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 10ms (Views: 9.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /jquery.js - 200 OK (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:44 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts/new" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Processing by ExternalScriptsController#new as HTML
+  Rendered external_scripts/_form.html.erb (2.1ms)
+  Rendered external_scripts/new.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 16ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /apps.css - 200 OK (3ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:46 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/external_scripts" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Processing by ExternalScriptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "external_script"=>{"script"=>"df"}, "commit"=>"Create External script"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (14.9ms)[0m  [1mINSERT INTO "external_scripts" ("created_at", "script", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 28 Feb 2013 13:19:52 UTC +00:00], ["script", "df"], ["updated_at", Thu, 28 Feb 2013 13:19:52 UTC +00:00]]
+  [1m[35m (3.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/external_scripts/2
+Completed 302 Found in 23ms (ActiveRecord: 18.7ms)
+
+
+Started GET "/external_scripts/2" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Processing by ExternalScriptsController#show as HTML
+  Parameters: {"id"=>"2"}
+  [1m[36mExternalScript Load (0.2ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = ? LIMIT 1[0m  [["id", "2"]]
+  Rendered external_scripts/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 8ms (Views: 7.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:52 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered external_scripts/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:53 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 1 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:54 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/_form.html.erb (2.4ms)
+  Rendered apps/edit.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 11ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:56 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/apps/10" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Processing by AppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "app"=>{"name"=>"First App", "state"=>"0", "path"=>"", "landscape_id"=>"6", "branch_id"=>"8", "external_script_id"=>"2"}, "commit"=>"Update App", "id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.3ms)[0m  [1mUPDATE "apps" SET "external_script_id" = 2, "updated_at" = '2013-02-28 13:19:58.869608' WHERE "apps"."id" = 10[0m
+  [1m[35m (5.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/apps/10
+Completed 302 Found in 11ms (ActiveRecord: 5.8ms)
+
+
+Started GET "/apps/10" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Processing by AppsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered apps/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 8ms (Views: 7.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:58 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:59 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:59 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:59 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:59 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:19:59 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:00 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/run_command/10" for 127.0.0.1 at 2013-02-28 15:20:01 +0200
+Processing by AppsController#run_command as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1[0m
+  Rendered apps/run_command.js.erb (0.1ms)
+Completed 200 OK in 25ms (Views: 1.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.2ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 14ms (Views: 12.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:20:52 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 11ms (Views: 10.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:01 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/new" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Processing by AppsController#new as HTML
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered apps/_form.html.erb (2.8ms)
+  Rendered apps/new.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 9.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:04 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:06 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:21:24 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 71ms (Views: 30.8ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:21:25 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/run_command/10" for 127.0.0.1 at 2013-02-28 15:21:28 +0200
+Processing by AppsController#run_command as JS
+  Parameters: {"id"=>"10"}
+  [1m[36mApp Load (0.2ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1
+  Rendered apps/run_command.js.erb (0.1ms)
+Completed 200 OK in 7ms (Views: 1.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLandscape Load (0.2ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/_form.html.erb (4.3ms)
+  Rendered apps/edit.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 15ms (Views: 12.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:07 +0200
+Served asset /apps.js - 200 OK (38ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:08 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:08 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:08 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:08 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  Rendered external_scripts/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:09 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts/new" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Processing by ExternalScriptsController#new as HTML
+  Rendered external_scripts/_form.html.erb (1.5ms)
+  Rendered external_scripts/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 9ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /apps.css - 200 OK (6ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:11 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/external_scripts" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Processing by ExternalScriptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "external_script"=>{"script"=>"top"}, "commit"=>"Create External script"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mINSERT INTO "external_scripts" ("created_at", "script", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 28 Feb 2013 13:22:15 UTC +00:00], ["script", "top"], ["updated_at", Thu, 28 Feb 2013 13:22:15 UTC +00:00]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/external_scripts/3
+Completed 302 Found in 8ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/external_scripts/3" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Processing by ExternalScriptsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mExternalScript Load (0.2ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  Rendered external_scripts/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 8ms (Views: 6.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:15 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[35mExternalScript Load (0.2ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered external_scripts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:16 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 2 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 10ms (Views: 8.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:18 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLandscape Load (0.2ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/_form.html.erb (2.6ms)
+  Rendered apps/edit.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /apps.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:20 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/apps/10" for 127.0.0.1 at 2013-02-28 15:22:22 +0200
+Processing by AppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "app"=>{"name"=>"First App", "state"=>"0", "path"=>"", "landscape_id"=>"6", "branch_id"=>"8", "external_script_id"=>"3"}, "commit"=>"Update App", "id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.5ms)[0m  [1mUPDATE "apps" SET "external_script_id" = 3, "updated_at" = '2013-02-28 13:22:22.972895' WHERE "apps"."id" = 10[0m
+  [1m[35m (13.6ms)[0m  commit transaction
+Redirected to http://localhost:3000/apps/10
+Completed 302 Found in 18ms (ActiveRecord: 14.2ms)
+
+
+Started GET "/apps/10" for 127.0.0.1 at 2013-02-28 15:22:22 +0200
+Processing by AppsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered apps/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 9ms (Views: 7.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:23 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:22:24 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 3 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 8.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /apps.css - 200 OK (7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:22:25 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/run_command/10" for 127.0.0.1 at 2013-02-28 15:22:26 +0200
+Processing by AppsController#run_command as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 3 LIMIT 1[0m
+Completed 500 Internal Server Error in 47ms
+
+TypeError (exception class/object expected):
+  lib/shell_command.rb:16:in `raise'
+  lib/shell_command.rb:16:in `system_quietly'
+  app/controllers/apps_controller.rb:54:in `run_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (22.9ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[35mExternalScript Load (0.2ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered external_scripts/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 11ms (Views: 9.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /application.css - 200 OK (52ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:24 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started DELETE "/external_scripts/3" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Processing by ExternalScriptsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "id"=>"3"}
+  [1m[36mExternalScript Load (0.2ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "external_scripts" WHERE "external_scripts"."id" = ?[0m  [["id", 3]]
+  [1m[35m (3.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/external_scripts
+Completed 302 Found in 7ms (ActiveRecord: 4.0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  Rendered external_scripts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:27 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 3 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 9ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:30 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered apps/_form.html.erb (3.6ms)
+  Rendered apps/edit.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 12ms (Views: 10.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /apps.css - 200 OK (31ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:34 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/apps/10" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Processing by AppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "app"=>{"name"=>"First App", "state"=>"0", "path"=>"", "landscape_id"=>"6", "branch_id"=>"8", "external_script_id"=>"1"}, "commit"=>"Update App", "id"=>"10"}
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.3ms)[0m  UPDATE "apps" SET "external_script_id" = 1, "updated_at" = '2013-02-28 13:29:39.841775' WHERE "apps"."id" = 10
+  [1m[36m (7.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/apps/10
+Completed 302 Found in 10ms (ActiveRecord: 7.7ms)
+
+
+Started GET "/apps/10" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Processing by AppsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:39 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 1 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 10ms (Views: 9.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:41 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  Rendered external_scripts/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 8ms (Views: 7.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /application.css - 200 OK (9ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:43 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts/new" for 127.0.0.1 at 2013-02-28 15:29:44 +0200
+Processing by ExternalScriptsController#new as HTML
+  Rendered external_scripts/_form.html.erb (1.4ms)
+  Rendered external_scripts/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:45 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/external_scripts" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Processing by ExternalScriptsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "external_script"=>{"script"=>"ls -lsa"}, "commit"=>"Create External script"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.6ms)[0m  [1mINSERT INTO "external_scripts" ("created_at", "script", "updated_at") VALUES (?, ?, ?)[0m  [["created_at", Thu, 28 Feb 2013 13:29:51 UTC +00:00], ["script", "ls -lsa"], ["updated_at", Thu, 28 Feb 2013 13:29:51 UTC +00:00]]
+  [1m[35m (4.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/external_scripts/4
+Completed 302 Found in 8ms (ActiveRecord: 5.4ms)
+
+
+Started GET "/external_scripts/4" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Processing by ExternalScriptsController#show as HTML
+  Parameters: {"id"=>"4"}
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = ? LIMIT 1[0m  [["id", "4"]]
+  Rendered external_scripts/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:51 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/external_scripts" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Processing by ExternalScriptsController#index as HTML
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered external_scripts/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 8ms (Views: 7.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:52 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 1 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 10ms (Views: 8.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:54 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/10/edit" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Processing by AppsController#edit as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  Rendered apps/_form.html.erb (2.7ms)
+  Rendered apps/edit.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 12ms (Views: 9.8ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:56 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/apps/10" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Processing by AppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3ac0LQ4XnRi/bBL8V71ZYanm4b47a5yjU7FzbuDbs40=", "app"=>{"name"=>"First App", "state"=>"0", "path"=>"", "landscape_id"=>"6", "branch_id"=>"8", "external_script_id"=>"4"}, "commit"=>"Update App", "id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36m (0.2ms)[0m  [1mUPDATE "apps" SET "external_script_id" = 4, "updated_at" = '2013-02-28 13:29:59.685010' WHERE "apps"."id" = 10[0m
+  [1m[35m (5.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/apps/10
+Completed 302 Found in 8ms (ActiveRecord: 5.5ms)
+
+
+Started GET "/apps/10" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Processing by AppsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  Rendered apps/show.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 7ms (Views: 6.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:29:59 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (32.7ms)
+Completed 200 OK in 40ms (Views: 38.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:30:01 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/run_command/10" for 127.0.0.1 at 2013-02-28 15:30:02 +0200
+Processing by AppsController#run_command as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1[0m
+  Rendered apps/run_command.js.erb (0.1ms)
+Completed 200 OK in 16ms (Views: 1.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/apps/run_command/10" for 127.0.0.1 at 2013-02-28 15:30:40 +0200
+Processing by AppsController#run_command as JS
+  Parameters: {"id"=>"10"}
+  [1m[35mApp Load (0.2ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "10"]]
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1[0m
+  Rendered apps/run_command.js.erb (0.1ms)
+Completed 200 OK in 15ms (Views: 1.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/apps/new" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Processing by AppsController#new as HTML
+  [1m[35mLandscape Load (0.2ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" 
+  Rendered apps/_form.html.erb (3.7ms)
+  Rendered apps/new.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 14ms (Views: 11.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /apps.css - 200 OK (3ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:05 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 10ms (Views: 9.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:31:12 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/landscapes" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Processing by LandscapesController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  Rendered landscapes/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 12ms (Views: 10.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /apps.css - 200 OK (4ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:00 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/branches" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Processing by BranchesController#index as HTML
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered branches/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 10ms (Views: 9.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /apps.css - 200 OK (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:07 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mExternalScript Load (0.1ms)[0m  SELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 10ms (Views: 8.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /application.css - 200 OK (6ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:13 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/new" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Processing by AppsController#new as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  Rendered apps/_form.html.erb (2.3ms)
+  Rendered apps/new.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:32:14 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mExternalScript Load (0.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" WHERE "external_scripts"."id" = 4 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 9ms (Views: 8.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /apps.css - 200 OK (6ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 15:33:39 +0200
+Served asset /application.js - 200 OK (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+Migrating to CreateLandscapes (20130203153517)
+Migrating to CreateBranches (20130203153543)
+Migrating to CreateApps (20130204092028)
+Migrating to CreateExternalScripts (20130205115334)
+Migrating to AddScriptIdToApp (20130205115424)
+Migrating to RemoveScriptIdToApp (20130205115823)
+Migrating to AddExtscriptIdToApp (20130205115844)
+Migrating to AddAppIdToExtScripts (20130228133906)
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.4ms)[0m  CREATE TEMPORARY TABLE "altered_apps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "landscape_id" integer, "branch_id" integer, "state" boolean, "path" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL, "external_script_id" integer) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "apps"[0m
+  [1m[35m (0.1ms)[0m  INSERT INTO "altered_apps" ("id","name","landscape_id","branch_id","state","path","created_at","updated_at","external_script_id") VALUES (10, 'First App', 6, 8, 'f', '', '2013-02-04 14:40:59.247499', '2013-02-28 13:29:59.685010', 4)
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "apps"[0m
+  [1m[35m (0.2ms)[0m  CREATE TABLE "apps" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "name" varchar(255), "landscape_id" integer, "branch_id" integer, "state" boolean, "path" varchar(255), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) 
+  [1m[36m (0.1ms)[0m  [1mSELECT * FROM "altered_apps"[0m
+  [1m[35m (0.0ms)[0m  INSERT INTO "apps" ("id","name","landscape_id","branch_id","state","path","created_at","updated_at") VALUES (10, 'First App', 6, 8, 'f', '', '2013-02-04 14:40:59.247499', '2013-02-28 13:29:59.685010')
+  [1m[36m (0.3ms)[0m  [1mDROP TABLE "altered_apps"[0m
+  [1m[35m (15.1ms)[0m  ALTER TABLE "external_scripts" ADD "app_id" integer
+  [1m[36m (0.1ms)[0m  [1mINSERT INTO "schema_migrations" ("version") VALUES ('20130228133906')[0m
+  [1m[35m (4.4ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 16:15:51 +0200
+Connecting to database specified by database.yml
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (28.5ms)
+Completed 500 Internal Server Error in 76ms
+
+ActionView::Template::Error (undefined method `external_script' for #<App:0x007fe6c969fa98>):
+    28:           </ul>
+    29:         </td>
+    30:         <td class="action">
+    31:           <%= link_to app.external_script.try(:script), {:action => 'run_command', :id => app.id}, :remote => true, :html => {'data-type' => 'js'}  %><br />
+    32:         </td>
+    33:         <td class="action"><%= link_to 'Show', app %></td>
+    34:         <td class="action"><%= link_to 'Edit', edit_app_path(app) %></td>
+  app/views/apps/index.html.erb:31:in `block in _app_views_apps_index_html_erb___3799798067956716962_70314597087020'
+  app/views/apps/index.html.erb:16:in `each'
+  app/views/apps/index.html.erb:16:in `_app_views_apps_index_html_erb___3799798067956716962_70314597087020'
+  app/controllers/apps_controller.rb:10:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 16:16:08 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.6ms)
+Compiled deployments.css  (3547ms)  (pid 85642)
+Compiled application.css  (3562ms)  (pid 85642)
+Compiled deployments.js  (109ms)  (pid 85642)
+Compiled application.js  (125ms)  (pid 85642)
+Completed 200 OK in 3924ms (Views: 3922.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /apps.css - 200 OK (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /application.css - 200 OK (12ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /branches.css - 200 OK (4ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /deployments.css - 200 OK (6ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /external_scripts.css - 200 OK (5ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /landscapes.css - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /scaffolds.css - 200 OK (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /jquery.js - 200 OK (7ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /jquery_ujs.js - 200 OK (3ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /branches.js - 200 OK (1ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /deployments.js - 200 OK (3ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /external_scripts.js - 200 OK (1ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /landscapes.js - 200 OK (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:12 +0200
+Served asset /application.js - 200 OK (10ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.2ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 12ms (Views: 10.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:16:25 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:04 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:31:05 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:31:06 +0200
+
+ActionController::RoutingError (No route matches [GET] "/deployments"):
+  actionpack (3.2.12) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+  railties (3.2.12) lib/rails/rack/logger.rb:32:in `call_app'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `block in call'
+  activesupport (3.2.12) lib/active_support/tagged_logging.rb:22:in `tagged'
+  railties (3.2.12) lib/rails/rack/logger.rb:16:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/request_id.rb:22:in `call'
+  rack (1.4.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.4.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (3.2.12) lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+  rack (1.4.5) lib/rack/lock.rb:15:in `call'
+  actionpack (3.2.12) lib/action_dispatch/middleware/static.rb:62:in `call'
+  railties (3.2.12) lib/rails/engine.rb:479:in `call'
+  railties (3.2.12) lib/rails/application.rb:223:in `call'
+  rack (1.4.5) lib/rack/content_length.rb:14:in `call'
+  railties (3.2.12) lib/rails/rack/log_tailer.rb:17:in `call'
+  rack (1.4.5) lib/rack/handler/webrick.rb:59:in `service'
+  /Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+  /Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+  /Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:38:03 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 67ms (Views: 7.8ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:38:04 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:38:55 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (4.9ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined local variable or method `f' for #<#<Class:0x007fe6c9ef9450>:0x007fe6cb823d68>):
+    13:   <tr>
+    14: 
+    15:     <td></td>
+    16:     <td><%= f.select 'landscape_id', @landscapes, {:include_blank => 'Please select landscape'} %></td>
+    17:     <td></td>
+    18:     <td></td>
+    19:     <td></td>
+  app/views/deployments/index.html.erb:16:in `_app_views_deployments_index_html_erb___2631047154813857290_70314616755440'
+  app/controllers/deployments_controller.rb:11:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (13.5ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:39:54 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `model_name' for NilClass:Class):
+    1: <h1>Maintenance</h1>
+    2: 
+    3: <%= form_for(@app) do |f| %>
+    4: <table>
+    5:   <tr>
+    6:     <th>Application</th>
+  app/views/deployments/index.html.erb:3:in `_app_views_deployments_index_html_erb___2631047154813857290_70314599497620'
+  app/controllers/deployments_controller.rb:11:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (27.5ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (33.5ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:41:07 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (0.9ms)
+Completed 500 Internal Server Error in 4ms
+
+ActionView::Template::Error (undefined method `model_name' for Fixnum:Class):
+    1: <h1>Maintenance</h1>
+    2: 
+    3: <%= form_for(@apps.first) do |f| %>
+    4: <table>
+    5:   <tr>
+    6:     <th>Application</th>
+  app/views/deployments/index.html.erb:3:in `_app_views_deployments_index_html_erb___2631047154813857290_70314602066020'
+  app/controllers/deployments_controller.rb:11:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 38ms (Views: 9.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Served asset /branches.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:34 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:41:35 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 10ms (Views: 8.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:28 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 11ms (Views: 10.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /application.css - 200 OK (8ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:33 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 10ms (Views: 7.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:34 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:42:35 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 12ms (Views: 9.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:12 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:43:17 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 11ms (Views: 8.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:46:16 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 38.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:09 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" [0m
+  Rendered deployments/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 11ms (Views: 9.1ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:47:48 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/landscapes" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Processing by LandscapesController#index as HTML
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  Rendered landscapes/index.html.erb within layouts/application (3.7ms)
+Compiled application.css  (1ms)  (pid 85642)
+Completed 200 OK in 82ms (Views: 76.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /application.css - 200 OK (19ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:52:30 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/landscapes" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Processing by LandscapesController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  Rendered landscapes/index.html.erb within layouts/application (2.5ms)
+Compiled application.css  (1ms)  (pid 85642)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /application.css - 200 OK (13ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:13 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/landscapes" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Processing by LandscapesController#index as HTML
+  [1m[35mLandscape Load (0.2ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  Rendered landscapes/index.html.erb within layouts/application (2.4ms)
+Compiled application.css  (1ms)  (pid 85642)
+Completed 200 OK in 69ms (Views: 67.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /application.css - 200 OK (17ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:53:35 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:53:41 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+ERROR: compiling _app_views_deployments_index_html_erb___2631047154813857290_70314627677420 RAISED /Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:27: syntax error, unexpected ')'
+...er.append= ( link_to 'Stop',  );@output_buffer.safe_concat('...
+...                               ^
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:40: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:42: syntax error, unexpected keyword_end, expecting ')'
+Function body:           def _app_views_deployments_index_html_erb___2631047154813857290_70314627677420(local_assigns, output_buffer)
+            _old_virtual_path, @virtual_path = @virtual_path, "deployments/index";_old_output_buffer = @output_buffer;;@output_buffer = output_buffer || ActionView::OutputBuffer.new;@output_buffer.safe_concat('<h1>Maintenance</h1>
+
+');@output_buffer.append=  form_for(@app) do |f| @output_buffer.safe_concat('
+');@output_buffer.safe_concat('<table>
+  <tr>
+    <th>Application</th>
+    <th>Landscape</th>
+    <th>Branch</th>
+    <th># of VMs</th>
+    <th>State</th>
+    <th>Set as default</th>
+  </tr>
+
+  <tr>
+
+    <td>');@output_buffer.append= ( f.select 'id', @apps, {:include_blank => 'Please select application'} );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( f.select 'landscape_id', @landscapes, {:include_blank => 'Please select landscape'} );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( f.select 'branch_id', @branches, {:include_blank => 'Please select branch'} );@output_buffer.safe_concat('</td>
+    <td>');@output_buffer.append= ( text_field_tag 'vms' );@output_buffer.safe_concat('</td>
+    <td>State</td>
+    <td>Set as Default</td>
+
+  </tr>
+
+  <tr>
+
+    <th>');@output_buffer.append= ( link_to 'Stop',  );@output_buffer.safe_concat('</th>
+    <th>Start</th>
+    <th>Restart</th>
+    <th>Deploy</th>
+    <th colspan="2">Undeploy</th>
+
+  </tr>
+</table>
+
+'); end 
+@output_buffer.safe_concat('
+<div id="script-result"></div>
+');@output_buffer.to_s
+          ensure
+            @virtual_path, @output_buffer = _old_virtual_path, _old_output_buffer
+          end
+
+Backtrace: /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `module_eval'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:297:in `compile'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:244:in `block in compile!'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `synchronize'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:232:in `compile!'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:144:in `block in render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:125:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/template.rb:143:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:47:in `block (2 levels) in render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `block in instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/abstract_renderer.rb:38:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:46:in `block in render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:54:in `render_with_layout'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:45:in `render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/template_renderer.rb:18:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:36:in `render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_view/renderer/renderer.rb:17:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:110:in `_render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/streaming.rb:225:in `_render_template'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:103:in `render_to_body'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/renderers.rb:28:in `render_to_body'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/compatibility.rb:50:in `render_to_body'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:88:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:16:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block (2 levels) in render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `block in ms'
+/Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/benchmark.rb:296:in `realtime'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/core_ext/benchmark.rb:5:in `ms'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:40:in `block in render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:83:in `cleanup_view_runtime'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:24:in `cleanup_view_runtime'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:39:in `render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:10:in `default_render'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/mime_responds.rb:196:in `respond_to'
+/Users/i061485/RubymineProjects/deptool/app/controllers/deployments_controller.rb:12:in `index'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/implicit_render.rb:4:in `send_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:167:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rendering.rb:10:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:18:in `block in process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:414:in `_run__2530519912663793869__process_action__3668517960472652423__callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_process_action_callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/callbacks.rb:17:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rescue.rb:29:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:30:in `block in process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `block in instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications/instrumenter.rb:20:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/notifications.rb:123:in `instrument'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/instrumentation.rb:29:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/params_wrapper.rb:207:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/railties/controller_runtime.rb:18:in `process_action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/base.rb:121:in `process'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/abstract_controller/rendering.rb:45:in `process'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:203:in `dispatch'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal/rack_delegation.rb:14:in `dispatch'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_controller/metal.rb:246:in `block in action'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:73:in `dispatch'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:36:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/bundler/gems/journey-ebe574d11942/lib/journey/router.rb:68:in `block in call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/bundler/gems/journey-ebe574d11942/lib/journey/router.rb:56:in `each'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/bundler/gems/journey-ebe574d11942/lib/journey/router.rb:56:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/routing/route_set.rb:601:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/best_standards_support.rb:17:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/etag.rb:23:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/conditionalget.rb:25:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/head.rb:14:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/params_parser.rb:21:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/flash.rb:242:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:210:in `context'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/session/abstract/id.rb:205:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/cookies.rb:341:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/query_cache.rb:64:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activerecord-3.2.12/lib/active_record/connection_adapters/abstract/connection_pool.rb:479:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:28:in `block in call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `_run__1506533705469676746__call__1840838652507882915__callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:405:in `__run_callback'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:385:in `_run_call_callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/callbacks.rb:81:in `run_callbacks'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/reloader.rb:65:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/remote_ip.rb:31:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/debug_exceptions.rb:16:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/show_exceptions.rb:56:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:32:in `call_app'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `block in call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/tagged_logging.rb:22:in `tagged'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/logger.rb:16:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/request_id.rb:22:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/methodoverride.rb:21:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/runtime.rb:17:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/activesupport-3.2.12/lib/active_support/cache/strategy/local_cache.rb:72:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/lock.rb:15:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/static.rb:62:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/engine.rb:479:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/application.rb:223:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/content_length.rb:14:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/railties-3.2.12/lib/rails/rack/log_tailer.rb:17:in `call'
+/Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/rack-1.4.5/lib/rack/handler/webrick.rb:59:in `service'
+/Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:138:in `service'
+/Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/httpserver.rb:94:in `run'
+/Users/i061485/.rvm/rubies/ruby-2.0.0-p0/lib/ruby/2.0.0/webrick/server.rb:295:in `block in start_thread'
+  Rendered deployments/index.html.erb within layouts/application (0.7ms)
+Completed 500 Internal Server Error in 22ms
+
+ActionView::Template::Error (/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:27: syntax error, unexpected ')'
+...er.append= ( link_to 'Stop',  );@output_buffer.safe_concat('...
+...                               ^
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:36: syntax error, unexpected keyword_end, expecting ')'
+'); end 
+       ^
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:40: syntax error, unexpected keyword_ensure, expecting ')'
+/Users/i061485/RubymineProjects/deptool/app/views/deployments/index.html.erb:42: syntax error, unexpected keyword_end, expecting ')'):
+    24: 
+    25:   <tr>
+    26: 
+    27:     <th><%= link_to 'Stop',  %></th>
+    28:     <th>Start</th>
+    29:     <th>Restart</th>
+    30:     <th>Deploy</th>
+  app/controllers/deployments_controller.rb:12:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.4ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:54:53 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (36.3ms)
+Completed 500 Internal Server Error in 40ms
+
+ActionView::Template::Error (undefined local variable or method `app' for #<#<Class:0x007fe6ccceda78>:0x007fe6ca91e318>):
+    24: 
+    25:   <tr>
+    26: 
+    27:     <th><%= link_to 'Stop', {:action => 'generate_command', :id => app.id}, :remote => true, :html => {'data-type' => 'js'}  %></th>
+    28:     <th>Start</th>
+    29:     <th>Restart</th>
+    30:     <th>Deploy</th>
+  app/views/deployments/index.html.erb:27:in `block in _app_views_deployments_index_html_erb___2631047154813857290_70314608878760'
+  app/views/deployments/index.html.erb:3:in `_app_views_deployments_index_html_erb___2631047154813857290_70314608878760'
+  app/controllers/deployments_controller.rb:12:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.6ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:55:11 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (2.8ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionController::RoutingError (No route matches {:action=>"generate_command", :id=>10, :controller=>"deployments"}):
+  app/views/deployments/index.html.erb:27:in `block in _app_views_deployments_index_html_erb___2631047154813857290_70314603611660'
+  app/views/deployments/index.html.erb:3:in `_app_views_deployments_index_html_erb___2631047154813857290_70314603611660'
+  app/controllers/deployments_controller.rb:12:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.12/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.5ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-02-28 16:55:32 +0200
+Processing by DeploymentsController#index as HTML
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  Rendered deployments/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 66ms (Views: 37.9ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /apps.js - 200 OK (2ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-02-28 16:55:33 +0200
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments/generate_command/10" for 127.0.0.1 at 2013-02-28 16:55:39 +0200
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"id"=>"10"}
+  Rendered deployments/generate_command.js.erb (0.2ms)
+Completed 200 OK in 1ms (Views: 1.0ms | ActiveRecord: 0.0ms)

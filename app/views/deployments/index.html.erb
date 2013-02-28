@@ -1,0 +1,38 @@
+<h1>Maintenance</h1>
+
+<%= form_for(@app) do |f| %>
+<table>
+  <tr>
+    <th>Application</th>
+    <th>Landscape</th>
+    <th>Branch</th>
+    <th># of VMs</th>
+    <th>State</th>
+    <th>Set as default</th>
+  </tr>
+
+  <tr>
+
+    <td><%= f.select 'id', @apps, {:include_blank => 'Please select application'} %></td>
+    <td><%= f.select 'landscape_id', @landscapes, {:include_blank => 'Please select landscape'} %></td>
+    <td><%= f.select 'branch_id', @branches, {:include_blank => 'Please select branch'} %></td>
+    <td><%= text_field_tag 'vms' %></td>
+    <td>State</td>
+    <td>Set as Default</td>
+
+  </tr>
+
+  <tr>
+
+    <th><%= link_to 'Stop', {:action => 'generate_command', :id => @app.id}, :remote => true, :html => {'data-type' => 'js'}  %></th>
+    <th>Start</th>
+    <th>Restart</th>
+    <th>Deploy</th>
+    <th colspan="2">Undeploy</th>
+
+  </tr>
+</table>
+
+<% end %>
+
+<div id="script-result"></div>

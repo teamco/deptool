@@ -11,7 +11,9 @@ Deptool::Application.routes.draw do
   resources :landscapes
 
 
-  match 'apps/run_command(/:id)' => 'apps#run_command'
+  match 'deployments(/:id)' => 'deployments#index'
+  match 'deployments/generate_command(/:id)' => 'deployments#generate_command'
+  match 'deployments/run_command(/:id)' => 'deployments#run_command'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
