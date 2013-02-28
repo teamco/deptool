@@ -1,6 +1,6 @@
 class AppsController < ApplicationController
 
-  #include ShellCommand
+  include ShellCommand
 
   # GET /apps
   # GET /apps.json
@@ -28,9 +28,9 @@ class AppsController < ApplicationController
   # GET /apps/new.json
   def new
     @app = App.new
-    @landscapes = Landscape.all.collect {|p| [ p.name, p.id ] }
-    @branches = Branch.all.collect {|p| [ p.name, p.id ] }
-    @scripts = ExternalScript.all.collect {|p| [ p.script, p.id ] }
+    @landscapes = Landscape.all.collect { |p| [p.name, p.id] }
+    @branches = Branch.all.collect { |p| [p.name, p.id] }
+    @scripts = ExternalScript.all.collect { |p| [p.script, p.id] }
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,18 +40,22 @@ class AppsController < ApplicationController
 
   # GET /apps/1/edit
   def edit
-    @landscapes = Landscape.all.collect {|p| [ p.name, p.id ] }
-    @branches = Branch.all.collect {|p| [ p.name, p.id ] }
+    @landscapes = Landscape.all.collect { |p| [p.name, p.id] }
+    @branches = Branch.all.collect { |p| [p.name, p.id] }
+    @scripts = ExternalScript.all.collect { |p| [p.script, p.id] }
+
     @app = App.find(params[:id])
   end
 
   def run_command
-    script = @app.script
+    @app = App.find(params[:id])
+    script = @app.external_script.script
 
-    system_quietly('ls')
+    @text = system_quietly(script).gsub(/\n/, '<br />')
 
-    format.html { redirect_to @app, notice: 'App was successfully created.' }
-    format.json { render json: @app, status: :created, location: @app }
+    respond_to do |format|
+      format.js { render :layout => false }
+    end
 
   end
 

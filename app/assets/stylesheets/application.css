@@ -70,3 +70,12 @@ td.action {
     background-color: lightblue;
     text-align: center;
 }
+
+#script-result {
+    border: 1px solid #999;
+    margin-top: 20px;
+    padding: 10px;
+    width: 600px;
+    height: 300px;
+    overflow: auto;
+}

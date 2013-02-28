@@ -1,7 +1,4 @@
 Deptool::Application.routes.draw do
-  resources :names
-
-
   resources :external_scripts
 
 
@@ -13,6 +10,8 @@ Deptool::Application.routes.draw do
 
   resources :landscapes
 
+
+  match 'apps/run_command(/:id)' => 'apps#run_command'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.
@@ -70,4 +69,5 @@ Deptool::Application.routes.draw do
   # This is a legacy wild controller route that's not recommended for RESTful applications.
   # Note: This route will make all actions in every controller accessible via GET requests.
   # match ':controller(/:action(/:id))(.:format)'
+
 end
