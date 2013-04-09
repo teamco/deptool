@@ -47,7 +47,7 @@ class ExternalScriptsController < ApplicationController
         format.html { redirect_to @external_script, notice: 'External script was successfully created.' }
         format.json { render json: @external_script, status: :created, location: @external_script }
       else
-        format.html { render action: "new" }
+        format.html { render action: 'new' }
         format.json { render json: @external_script.errors, status: :unprocessable_entity }
       end
     end
@@ -63,7 +63,7 @@ class ExternalScriptsController < ApplicationController
         format.html { redirect_to @external_script, notice: 'External script was successfully updated.' }
         format.json { head :no_content }
       else
-        format.html { render action: "edit" }
+        format.html { render action: 'edit' }
         format.json { render json: @external_script.errors, status: :unprocessable_entity }
       end
     end

@@ -1,0 +1,21 @@
+<h1>Listing properties_paths</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th colspan="3">?</th>
+  </tr>
+
+<% @properties_paths.each do |properties_path| %>
+  <tr>
+    <td><%= properties_path.name %></td>
+    <td class="action"><%= link_to 'Show', properties_path %></td>
+    <td class="action"><%= link_to 'Edit', edit_properties_path_path(properties_path) %></td>
+    <td class="action"><%= link_to 'Destroy', properties_path, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Properties path', new_properties_path_path %>

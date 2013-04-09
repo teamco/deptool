@@ -1,21 +1,35 @@
-<%= form_for(@landscape) do |f| %>
-  <% if @landscape.errors.any? %>
-    <div id="error_explanation">
-      <h2><%= pluralize(@landscape.errors.count, 'error') %> prohibited this landscape from being saved:</h2>
+<%= form_for(@data[:landscape]) do |f| %>
+    <% if @data[:landscape].errors.any? %>
+        <div id="error_explanation">
+          <h2><%= pluralize(@data[:landscape].errors.count, 'error') %> prohibited this landscape from being saved:</h2>
 
-      <ul>
-      <% @landscape.errors.full_messages.each do |msg| %>
-        <li><%= msg %></li>
-      <% end %>
-      </ul>
+          <ul>
+            <% @data[:landscape].errors.full_messages.each do |msg| %>
+                <li><%= msg %></li>
+            <% end %>
+          </ul>
+        </div>
+    <% end %>
+
+    <div class="field">
+      <%= f.label :name %>
+      <br/>
+      <%= f.text_field :name %>
     </div>
-  <% end %>
 
-  <div class="field">
-    <%= f.label :name %><br />
-    <%= f.text_field :name %>
-  </div>
-  <div class="actions">
-    <%= f.submit %>
-  </div>
+    <div class="field">
+      <label>Account</label>
+      <br/>
+      <%= f.select 'account_id', @data[:accounts], {:include_blank => 'Please select account'} %>
+    </div>
+
+    <div class="field">
+      <label>Domain</label>
+      <br/>
+      <%= f.select 'domain_id', @data[:domains], {:include_blank => 'Please select domain'} %>
+    </div>
+
+    <div class="actions">
+      <%= f.submit %>
+    </div>
 <% end %>

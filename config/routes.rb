@@ -1,4 +1,22 @@
 Deptool::Application.routes.draw do
+  resources :build_results
+
+
+  resources :properties_paths
+
+
+  resources :domains
+
+
+  resources :users
+
+
+  resources :accounts
+
+
+  resources :components
+
+
   resources :external_scripts
 
 
