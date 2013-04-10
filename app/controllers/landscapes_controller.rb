@@ -26,7 +26,6 @@ class LandscapesController < ApplicationController
   def new
     @data = {
         landscape: Landscape.new,
-        accounts: Account.all.collect { |p| [p.name, p.id] },
         domains: Domain.all.collect { |p| [p.name, p.id] }
     }
 
@@ -40,7 +39,6 @@ class LandscapesController < ApplicationController
   def edit
     @data = {
         landscape: Landscape.find(params[:id]),
-        accounts: Account.all.collect { |p| [p.name, p.id] },
         domains: Domain.all.collect { |p| [p.name, p.id] }
     }
   end

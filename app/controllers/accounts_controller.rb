@@ -24,7 +24,10 @@ class AccountsController < ApplicationController
   # GET /accounts/new
   # GET /accounts/new.json
   def new
-    @account = Account.new
+    @data = {
+        account: Account.new,
+        landscapes: Landscape.all.collect { |p| [p.name, p.id] }
+    }
 
     respond_to do |format|
       format.html # new.html.erb
@@ -34,7 +37,11 @@ class AccountsController < ApplicationController
 
   # GET /accounts/1/edit
   def edit
-    @account = Account.find(params[:id])
+    @data = {
+        account: Account.find(params[:id]),
+        landscapes: Landscape.all.collect { |p| [p.name, p.id] }
+    }
+
   end
 
   # POST /accounts

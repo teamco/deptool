@@ -18,9 +18,12 @@
     </div>
 
     <div class="field">
-      <label>Account</label>
-      <br/>
-      <%= f.select 'account_id', @data[:accounts], {:include_blank => 'Please select account'} %>
+      <label>Accounts</label>
+      <ul>
+        <% @data[:landscape].accounts.each do |account| %>
+            <li><%= account.name %></li>
+        <% end %>
+      </ul>
     </div>
 
     <div class="field">

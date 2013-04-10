@@ -3,12 +3,14 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Landscape</th>
     <th colspan="3">?</th>
   </tr>
 
 <% @accounts.each do |account| %>
   <tr>
     <td><%= account.name %></td>
+    <td><%= account.landscape.try(:name) %></td>
     <td class="action"><%= link_to 'Show', account %></td>
     <td class="action"><%= link_to 'Edit', edit_account_path(account) %></td>
     <td class="action"><%= link_to 'Destroy', account, method: :delete, data: { confirm: 'Are you sure?' } %></td>

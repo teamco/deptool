@@ -1,6 +1,7 @@
 class Account < ActiveRecord::Base
   attr_accessible :name
+  attr_accessible :landscape_id
 
-  has_one :landscape
+  belongs_to :landscape
 
 end
