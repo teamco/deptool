@@ -27,10 +27,14 @@ class AppsController < ApplicationController
   # GET /apps/new
   # GET /apps/new.json
   def new
-    @app = App.new
-    @landscapes = Landscape.all.collect { |p| [p.name, p.id] }
-    @branches = Branch.all.collect { |p| [p.name, p.id] }
-    #@scripts = ExternalScript.all.collect { |p| [p.script, p.id] }
+    @data = {
+        app: App.new,
+        landscapes: Landscape.all.collect { |p| [p.name, p.id] },
+        branches: Branch.all.collect { |p| [p.name, p.id] },
+        scripts: ExternalScript.all.collect { |p| [p.script, p.id] },
+        components: Component.all.collect { |p| [p.name, p.id] },
+        users: User.all.collect { |p| [p.name, p.id] }
+    }
 
     respond_to do |format|
       format.html # new.html.erb
@@ -40,11 +44,15 @@ class AppsController < ApplicationController
 
   # GET /apps/1/edit
   def edit
-    @landscapes = Landscape.all.collect { |p| [p.name, p.id] }
-    @branches = Branch.all.collect { |p| [p.name, p.id] }
-    #@scripts = ExternalScript.all.collect { |p| [p.script, p.id] }
+    @data = {
+        app: App.find(params[:id]),
+        landscapes: Landscape.all.collect { |p| [p.name, p.id] },
+        branches: Branch.all.collect { |p| [p.name, p.id] },
+        scripts: ExternalScript.all.collect { |p| [p.script, p.id] },
+        components: Component.all.collect { |p| [p.name, p.id] },
+        users: User.all.collect { |p| [p.name, p.id] }
+    }
 
-    @app = App.find(params[:id])
   end
 
   def run_command

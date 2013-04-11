@@ -22,6 +22,8 @@
           <ul>
             <li><b>Landscape:</b> <%= app.landscape.try(:name) %></li>
             <li><b>Branch:</b> <%= app.branch.try(:name) %></li>
+            <li><b>Component:</b> <%= app.component.try(:name) %></li>
+            <li><b>User:</b> <%= app.user.try(:name) %></li>
               <%#= link_to app.external_script.try(:script), {:action => 'run_command', :id => app.id}, :remote => true, :html => {'data-type' => 'js'}  %>
           </ul>
         </td>

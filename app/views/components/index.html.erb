@@ -3,12 +3,20 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Application</th>
     <th colspan="3">?</th>
   </tr>
 
 <% @components.each do |component| %>
   <tr>
     <td><%= component.name %></td>
+    <td>
+      <ul>
+        <% component.apps.each do |app| %>
+            <li><%= app.name %></li>
+        <% end %>
+      </ul>
+    </td>
     <td class="action"><%= link_to 'Show', component %></td>
     <td class="action"><%= link_to 'Edit', edit_component_path(component) %></td>
     <td class="action"><%= link_to 'Destroy', component, method: :delete, data: { confirm: 'Are you sure?' } %></td>

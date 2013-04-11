@@ -1,0 +1,13 @@
+<h1>Select Account / Application</h1>
+<%= form_for @data[:landscape], :url => {:action => 'maintenance'} do |f| %>
+    <table>
+      <tr>
+        <td><%= f.select 'id', @data[:accounts], {:include_blank => 'Please select account'} %></td>
+        <td><%= f.select 'id', @data[:apps], {:include_blank => 'Please select app'} %></td>
+      </tr>
+      <tr>
+        <td><%= f.submit 'Next' %></td>
+      </tr>
+    </table>
+
+<% end %>

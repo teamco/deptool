@@ -3,30 +3,60 @@ class DeploymentsController < ApplicationController
 
   # GET /apps
   # GET /apps.json
+
   def index
     @data = {
-        apps: App.all.collect { |p| [p.name, p.id] },
-        app: App.first,
         landscapes: Landscape.all.collect { |p| [p.name, p.id] },
-        branches: Branch.all.collect { |p| [p.name, p.id] },
-        users: User.all,
-        components: Component.all,
+        landscape: Landscape.first
+    }
+
+    case params[:id]
+      when 'select_data'
+        select_data
+      when 'maintenance'
+        maintenance
+      else
+        respond_to do |format|
+          format.html # index.html.erb
+        end
+    end
+
+  end
+
+  def select_data
+    landscape = Landscape.find(params[:landscape][:id])
+
+    @data = {
+        landscape: landscape,
+        accounts: landscape.accounts.all.collect { |p| [p.name, p.id] },
+        apps: landscape.apps.all.collect { |p| [p.name, p.id] }
+    }
+
+    render :action => :select_data
+  end
+
+  def maintenance
+    @data = {
+        #apps: App.all.collect { |p| [p.name, p.id] },
+        app: App.first,
+        #landscapes: Landscape.all.collect { |p| [p.name, p.id] },
+        #branches: Branch.all.collect { |p| [p.name, p.id] },
+        #users: User.all.collect { |p| [p.name, p.id] },
+        #components: Component.all.collect { |p| [p.name, p.id] },
         properties_paths: PropertiesPath.all,
         build_results: BuildResult.all
     }
 
-    respond_to do |format|
-      format.html # index.html.erb
-    end
+    render :action => :maintenance
   end
 
   def generate_command
-    logger.info ">>>>>>>>>> #{params.inspect}"
+    logger.info ">>>>>>>>>> #{@data.inspect}"
     app = App.find(params[:id])
     branch = Branch.find(params[:app][:branch_id])
     landscape = app.landscape
-    user = User.find(params[:user_id])
-    component = Component.find(params[:component_id])
+    user = User.find(params[:app][:user_id])
+    component = Component.find(params[:app][:component_id])
     properties_path = PropertiesPath.find(params[:properties_path_id])
     build_result = BuildResult.find(params[:build_results_id])
     # neo deploy props.properties
@@ -50,7 +80,7 @@ class DeploymentsController < ApplicationController
 
     @command = "neo deploy #{properties_path.name}props.properties #{build_result} #{vm} #{account} #{name} #{component} #{domain} #{login} #{password}"
 
-   logger.info ">>>>>>>>>\n #{@command}"
+    logger.info ">>>>>>>>>\n #{@command}"
 
     respond_to do |format|
       format.js { render :layout => false }

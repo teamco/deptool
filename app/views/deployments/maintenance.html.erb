@@ -1,0 +1,86 @@
+<h1>Maintenance</h1>
+<%= form_for @data[:app], :remote => true, :url => {:action => 'generate_command', :id => @data[:app].id} do |f| %>
+    <table>
+      <tr>
+        <th>Application</th>
+        <td>
+          <%= @data[:app].name %>
+          <%#= f.select 'id', @data[:apps], {:include_blank => 'Please select application'} %>
+        </td>
+      </tr>
+      <tr>
+        <th>Landscape</th>
+        <td>
+          <%= @data[:app].landscape.try(:name) %>
+          <%= f.hidden_field 'landscape_id', :value => @data[:app].landscape.try(:id) %>
+          <%#= f.select 'landscape_id', @data[:landscapes], {:include_blank => 'Please select landscape'} %>
+        </td>
+      </tr>
+      <tr>
+        <th>Branch</th>
+        <td>
+          <%= @data[:app].branch.try(:name) %>
+          <%= f.hidden_field 'branch_id', :value => @data[:app].branch.try(:id) %>
+          <%#= f.select 'branch_id', @data[:branches], {:include_blank => 'Please select branch'} %>
+        </td>
+      </tr>
+      <tr>
+        <th>Max # of VMs</th>
+        <td><%= text_field_tag 'vms_max', 1 %></td>
+      </tr>
+      <tr>
+        <th>Min # of VMs</th>
+        <td><%= text_field_tag 'vms_min', 1 %></td>
+      </tr>
+      <tr>
+        <th>User</th>
+        <td>
+          <%= @data[:app].user.try(:name) %>
+          <%= f.hidden_field 'user_id', :value => @data[:app].user.try(:id) %>
+          <%#= select_tag 'user_id', options_from_collection_for_select(@data[:users], 'id', 'name'), :prompt => 'Please select user' %>
+        </td>
+      </tr>
+      <tr>
+        <th>Component</th>
+        <td>
+          <%= @data[:app].component.try(:name) %>
+          <%= f.hidden_field 'component_id', :value => @data[:app].component.try(:id) %>
+          <%#= select_tag 'component_id', options_from_collection_for_select(@data[:components], 'id', 'name'), :prompt => 'Please select component' %>
+        </td>
+      </tr>
+      <tr>
+        <th>Properties Path</th>
+        <td><%= select_tag 'properties_path_id', options_from_collection_for_select(@data[:properties_paths], 'id', 'name'), :prompt => 'Please select properties path' %></td>
+      </tr>
+      <tr>
+        <th>Build Results</th>
+        <td><%= select_tag 'build_results_id', options_from_collection_for_select(@data[:build_results], 'id', 'name'), :prompt => 'Please select build result path' %></td>
+      </tr>
+      <tr>
+        <th>State</th>
+        <td>State</td>
+      </tr>
+      <tr>
+        <th>Set as default</th>
+        <td>Set as Default</td>
+      </tr>
+
+    </table>
+
+    <table>
+      <tr>
+        <th><%= submit_tag 'show', :disable_with => 'Please wait...' %>
+          <%#= link_to 'Show', {:action => 'generate_command', :id => @data[:app].id, :form => f}, :remote => true, :html => {'data-type' => 'js'} %>
+        </th>
+        <th><%= link_to 'Stop', {:action => 'generate_command', :id => @data[:app].id}, :remote => true, :html => {'data-type' => 'js'} %></th>
+        <th>Start</th>
+        <th>Restart</th>
+        <th>Deploy</th>
+        <th colspan="2">Revert</th>
+
+      </tr>
+    </table>
+
+<% end %>
+
+<div id="script-result"></div>

@@ -49,7 +49,7 @@ html, body {
 
 ul {
     list-style: none;
-    margin: 10px;
+    margin: 10px 0 0 0;
 }
 
 li {
@@ -69,6 +69,14 @@ th {
 
 td {
     padding: 2px 10px;
+    border-bottom: 1px solid #ccc;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-right: 1px solid #ccc;
+}
+
+td:last-child {
+    border-right: none;
 }
 
 td.action {

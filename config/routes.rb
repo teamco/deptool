@@ -32,6 +32,8 @@ Deptool::Application.routes.draw do
   match 'deployments(/:id)' => 'deployments#index'
   match 'deployments/generate_command(/:id)' => 'deployments#generate_command'
   match 'deployments/run_command(/:id)' => 'deployments#run_command'
+  match 'deployments/select_data(/:id)' => 'deployments#select_data'
+  match 'deployments/maintenance(/:id)' => 'deployments#maintenance'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

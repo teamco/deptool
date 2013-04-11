@@ -3,6 +3,7 @@
 <table>
   <tr>
     <th>Name</th>
+    <th>Application</th>
     <th>Account</th>
     <th>Domain</th>
     <th colspan="3">?</th>
@@ -11,6 +12,13 @@
   <% @landscapes.each do |landscape| %>
       <tr>
         <td><%= landscape.name %></td>
+        <td>
+          <ul>
+            <% landscape.apps.each do |app| %>
+                <li><%= app.name %></li>
+            <% end %>
+          </ul>
+        </td>
         <td>
           <ul>
             <% landscape.accounts.each do |account| %>
