@@ -38,7 +38,8 @@ class DeploymentsController < ApplicationController
   def maintenance
     @data = {
         #apps: App.all.collect { |p| [p.name, p.id] },
-        app: App.first,
+        app: App.find(params[:landscape][:apps]),
+        account: Account.find(params[:landscape][:accounts]),
         #landscapes: Landscape.all.collect { |p| [p.name, p.id] },
         #branches: Branch.all.collect { |p| [p.name, p.id] },
         #users: User.all.collect { |p| [p.name, p.id] },
@@ -55,6 +56,7 @@ class DeploymentsController < ApplicationController
     app = App.find(params[:id])
     branch = Branch.find(params[:app][:branch_id])
     landscape = app.landscape
+    account = Account.find(params[:app][:account_id])
     user = User.find(params[:app][:user_id])
     component = Component.find(params[:app][:component_id])
     properties_path = PropertiesPath.find(params[:properties_path_id])
@@ -70,7 +72,7 @@ class DeploymentsController < ApplicationController
     # -u i031410
 
     vm = "-M #{params[:vms_max] || 1} -m #{params[:vms_min] || 1}"
-    account = "-a #{landscape.account.name}"
+    account = "-a #{account.name}"
     name = "-b #{app.name.titlecase.gsub(/ /, '')}"
     component = "-c #{component.name}"
     login = "-u #{user.name}"

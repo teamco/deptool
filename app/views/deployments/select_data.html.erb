@@ -2,8 +2,8 @@
 <%= form_for @data[:landscape], :url => {:action => 'maintenance'} do |f| %>
     <table>
       <tr>
-        <td><%= f.select 'id', @data[:accounts], {:include_blank => 'Please select account'} %></td>
-        <td><%= f.select 'id', @data[:apps], {:include_blank => 'Please select app'} %></td>
+        <td><%= f.select 'accounts', @data[:accounts], {:include_blank => 'Please select account'} %></td>
+        <td><%= f.select 'apps', @data[:apps], {:include_blank => 'Please select app'} %></td>
       </tr>
       <tr>
         <td><%= f.submit 'Next' %></td>

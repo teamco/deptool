@@ -70512,3 +70512,2740 @@ NoMethodError (undefined method `account' for #<Landscape:0x007f80c482aae0>):
   Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
   Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
   Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[36mLandscape Load (0.2ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  Rendered deployments/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 54ms (Views: 52.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /deployments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /apps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /build_results.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /branches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /components.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /domains.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /external_scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /landscapes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /properties_paths.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /apps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /branches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /build_results.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /components.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /deployments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /domains.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /external_scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /landscapes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /properties_paths.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:44 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  Rendered deployments/select_data.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 64ms (Views: 52.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /build_results.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /apps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /components.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /branches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /deployments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /domains.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /external_scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /landscapes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /properties_paths.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /apps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /branches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /build_results.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /components.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /deployments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /domains.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /external_scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /landscapes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /properties_paths.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 17:11:46 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 17:12:25 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"10"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[35mLandscape Load (0.2ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" [0m
+  [1m[35mBuildResult Load (0.1ms)[0m  SELECT "build_results".* FROM "build_results" 
+  [1m[36mLandscape Load (0.2ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.2ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1
+  Rendered deployments/maintenance.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 101ms (Views: 97.5ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /branches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /apps.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /deployments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /build_results.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /components.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /domains.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /external_scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /landscapes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /properties_paths.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /apps.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /branches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /build_results.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /components.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /deployments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /domains.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /external_scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /landscapes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /properties_paths.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 17:12:26 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+
+
+Started PUT "/deployments/generate_command/10" for 127.0.0.1 at 2013-04-11 17:47:35 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "branch_id"=>"8", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"", "build_results_id"=>"", "commit"=>"show", "id"=>"10"}
+>>>>>>>>>> nil
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1  [["id", "8"]]
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPropertiesPath Load (0.1ms)[0m  SELECT "properties_paths".* FROM "properties_paths" WHERE "properties_paths"."id" = ? LIMIT 1  [["id", ""]]
+Completed 404 Not Found in 3ms
+
+ActiveRecord::RecordNotFound (Couldn't find PropertiesPath with id=):
+  app/controllers/deployments_controller.rb:60:in `generate_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  Rendered deployments/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 86ms (Views: 85.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /branches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /apps.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /components.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /deployments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /build_results.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /domains.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /external_scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /landscapes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /properties_paths.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /apps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /branches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /build_results.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /components.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /deployments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /domains.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /external_scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /landscapes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /properties_paths.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 17:47:38 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+Connecting to database specified by database.yml
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-04-11 19:19:28 +0300
+Processing by AppsController#index as HTML
+  [1m[36mApp Load (12.8ms)[0m  [1mSELECT "apps".* FROM "apps" [0m
+  [1m[35mLandscape Load (14.8ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.4ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1[0m
+  [1m[35mComponent Load (0.4ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  Rendered apps/index.html.erb within layouts/application (129.4ms)
+Completed 200 OK in 636ms (Views: 584.3ms | ActiveRecord: 30.7ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  Rendered deployments/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 379ms (Views: 377.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /accounts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /apps.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /branches.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /components.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /build_results.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /deployments.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /domains.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /external_scripts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /landscapes.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /properties_paths.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /scaffolds.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /users.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /accounts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:33 +0300
+Served asset /apps.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /branches.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /build_results.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /components.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /deployments.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /domains.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /external_scripts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /landscapes.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /properties_paths.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:34 +0300
+Served asset /application.js - 304 Not Modified (12ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[35mLandscape Load (0.2ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mAccount Load (0.5ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6
+  Rendered deployments/select_data.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 78ms (Views: 58.6ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /apps.css - 304 Not Modified (29ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /accounts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /branches.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /build_results.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /components.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /deployments.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /domains.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /external_scripts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /landscapes.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /properties_paths.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /accounts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /apps.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /branches.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /build_results.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /components.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /deployments.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /domains.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /external_scripts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /properties_paths.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /landscapes.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:19:47 +0300
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  Rendered deployments/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 53ms (Views: 51.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /application.css - 200 OK (2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:21:30 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:21:32 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  Rendered deployments/select_data.html.erb within layouts/application (16.2ms)
+Completed 500 Internal Server Error in 21ms
+
+ActionView::Template::Error (undefined method `account_id' for #<Landscape:0x007f98ac96f9c8>):
+    2: <%= form_for @data[:landscape], :url => {:action => 'maintenance'} do |f| %>
+    3:     <table>
+    4:       <tr>
+    5:         <td><%= f.select 'account_id', @data[:accounts], {:include_blank => 'Please select account'} %></td>
+    6:         <td><%= f.select 'app_id', @data[:apps], {:include_blank => 'Please select app'} %></td>
+    7:       </tr>
+    8:       <tr>
+  app/views/deployments/select_data.html.erb:5:in `block in _app_views_deployments_select_data_html_erb__2583389994531792642_70146844391340'
+  app/views/deployments/select_data.html.erb:2:in `_app_views_deployments_select_data_html_erb__2583389994531792642_70146844391340'
+  app/controllers/deployments_controller.rb:35:in `select_data'
+  app/controllers/deployments_controller.rb:15:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.1ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (8.3ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:21:48 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1  [["id", "6"]]
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6
+  Rendered deployments/select_data.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 6ms
+
+ActionView::Template::Error (undefined method `account' for #<Landscape:0x007f98b0986d68>):
+    2: <%= form_for @data[:landscape], :url => {:action => 'maintenance'} do |f| %>
+    3:     <table>
+    4:       <tr>
+    5:         <td><%= f.select 'account', @data[:accounts], {:include_blank => 'Please select account'} %></td>
+    6:         <td><%= f.select 'app', @data[:apps], {:include_blank => 'Please select app'} %></td>
+    7:       </tr>
+    8:       <tr>
+  app/views/deployments/select_data.html.erb:5:in `block in _app_views_deployments_select_data_html_erb__2583389994531792642_70146845646660'
+  app/views/deployments/select_data.html.erb:2:in `_app_views_deployments_select_data_html_erb__2583389994531792642_70146845646660'
+  app/controllers/deployments_controller.rb:35:in `select_data'
+  app/controllers/deployments_controller.rb:15:in `index'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.7ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.3ms)
+Connecting to database specified by database.yml
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  Rendered deployments/select_data.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 55ms (Views: 52.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /apps.css - 200 OK (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:22:58 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"accounts"=>"1", "apps"=>"10"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" LIMIT 1
+  [1m[36mPropertiesPath Load (14.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" [0m
+  [1m[35mBuildResult Load (0.4ms)[0m  SELECT "build_results".* FROM "build_results" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1
+  Rendered deployments/maintenance.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 115ms (Views: 60.1ms | ActiveRecord: 15.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:23:29 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 19:25:44 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"accounts"=>"1", "apps"=>"10"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "10"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" [0m
+  [1m[35mBuildResult Load (0.1ms)[0m  SELECT "build_results".* FROM "build_results" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1
+  Rendered deployments/maintenance.html.erb within layouts/application (55.5ms)
+Completed 200 OK in 149ms (Views: 105.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:45 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  Rendered deployments/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 88ms (Views: 86.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:48 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  Rendered deployments/select_data.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 117ms (Views: 112.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:49 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 55ms (Views: 53.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /apps.js - 200 OK (1ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:54 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps/new" for 127.0.0.1 at 2013-04-11 19:25:56 +0300
+Processing by AppsController#new as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" 
+  [1m[36mExternalScript Load (13.1ms)[0m  [1mSELECT "external_scripts".* FROM "external_scripts" [0m
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" 
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" [0m
+  Rendered apps/_form.html.erb (64.6ms)
+  Rendered apps/new.html.erb within layouts/application (96.1ms)
+Completed 200 OK in 182ms (Views: 155.8ms | ActiveRecord: 13.7ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /application.css - 200 OK (5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:25:57 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started POST "/apps" for 127.0.0.1 at 2013-04-11 19:26:12 +0300
+Processing by AppsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"name"=>"test app", "state"=>"0", "path"=>"", "landscape_id"=>"6", "branch_id"=>"1", "component_id"=>"1", "user_id"=>"1"}, "commit"=>"Create App"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (38.3ms)[0m  [1mINSERT INTO "apps" ("branch_id", "component_id", "created_at", "landscape_id", "name", "path", "state", "updated_at", "user_id") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["branch_id", 1], ["component_id", 1], ["created_at", Thu, 11 Apr 2013 16:26:12 UTC +00:00], ["landscape_id", 6], ["name", "test app"], ["path", ""], ["state", false], ["updated_at", Thu, 11 Apr 2013 16:26:12 UTC +00:00], ["user_id", 1]]
+  [1m[35m (4.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/apps/11
+Completed 302 Found in 47ms (ActiveRecord: 42.5ms)
+
+
+Started GET "/apps/11" for 127.0.0.1 at 2013-04-11 19:26:12 +0300
+Processing by AppsController#show as HTML
+  Parameters: {"id"=>"11"}
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  Rendered apps/show.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 67ms (Views: 65.9ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /apps.css - 200 OK (1ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:13 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/apps" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Processing by AppsController#index as HTML
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 8 LIMIT 1
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 1 LIMIT 1
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  Rendered apps/index.html.erb within layouts/application (5.6ms)
+Completed 200 OK in 57ms (Views: 55.4ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:14 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/deployments" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Processing by DeploymentsController#index as HTML
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  Rendered deployments/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 110ms (Views: 108.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:18 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/select_data" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"id"=>"6"}, "commit"=>"Next", "id"=>"select_data"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = ? LIMIT 1[0m  [["id", "6"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  [1m[35mCACHE (0.0ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."landscape_id" = 6
+  [1m[36mCACHE (0.0ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."landscape_id" = 6[0m
+  Rendered deployments/select_data.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 77ms (Views: 72.8ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /application.css - 200 OK (1ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:20 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"accounts"=>"3", "apps"=>"11"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mPropertiesPath Load (0.1ms)[0m  SELECT "properties_paths".* FROM "properties_paths" 
+  [1m[36mBuildResult Load (0.1ms)[0m  [1mSELECT "build_results".* FROM "build_results" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1[0m
+  Rendered deployments/maintenance.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 57ms (Views: 53.9ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /application.css - 200 OK (3ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:26:28 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"accounts"=>"3", "apps"=>"11"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" LIMIT 1[0m
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mPropertiesPath Load (0.1ms)[0m  SELECT "properties_paths".* FROM "properties_paths" 
+  [1m[36mBuildResult Load (0.1ms)[0m  [1mSELECT "build_results".* FROM "build_results" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = 1 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1[0m
+  Rendered deployments/maintenance.html.erb within layouts/application (5.3ms)
+Completed 200 OK in 58ms (Views: 55.1ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /application.css - 200 OK (4ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:28:05 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/generate_command/11" for 127.0.0.1 at 2013-04-11 19:28:22 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "account_id"=>"3", "branch_id"=>"1", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"", "build_results_id"=>"", "commit"=>"show", "id"=>"11"}
+>>>>>>>>>> nil
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" WHERE "properties_paths"."id" = ? LIMIT 1[0m  [["id", ""]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find PropertiesPath with id=):
+  app/controllers/deployments_controller.rb:61:in `generate_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.1ms)
+
+
+Started PUT "/deployments/generate_command/11" for 127.0.0.1 at 2013-04-11 19:28:45 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "account_id"=>"3", "branch_id"=>"1", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"1", "build_results_id"=>"1", "commit"=>"show", "id"=>"11"}
+>>>>>>>>>> nil
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" WHERE "properties_paths"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mBuildResult Load (0.1ms)[0m  SELECT "build_results".* FROM "build_results" WHERE "build_results"."id" = ? LIMIT 1  [["id", "1"]]
+Completed 500 Internal Server Error in 4ms
+
+NoMethodError (undefined method `account' for #<Landscape:0x007f98ab606ff8>):
+  app/controllers/deployments_controller.rb:74:in `generate_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.4ms)
+
+
+Started PUT "/deployments/generate_command/11" for 127.0.0.1 at 2013-04-11 19:29:35 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "account_id"=>"3", "branch_id"=>"1", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"1", "build_results_id"=>"1", "commit"=>"show", "id"=>"11"}
+>>>>>>>>>> nil
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "3"]]
+Completed 404 Not Found in 36ms
+
+ActiveRecord::RecordNotFound (Couldn't find User with id=3):
+  app/controllers/deployments_controller.rb:59:in `generate_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.0ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.3ms)
+
+
+Started PUT "/deployments/maintenance" for 127.0.0.1 at 2013-04-11 19:29:52 +0300
+Processing by DeploymentsController#index as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "landscape"=>{"accounts"=>"3", "apps"=>"11"}, "commit"=>"Next", "id"=>"maintenance"}
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" [0m
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" LIMIT 1
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" [0m
+  [1m[35mBuildResult Load (0.1ms)[0m  SELECT "build_results".* FROM "build_results" 
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = 1 LIMIT 1
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = 1 LIMIT 1[0m
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = 1 LIMIT 1
+  Rendered deployments/maintenance.html.erb within layouts/application (56.5ms)
+Completed 200 OK in 154ms (Views: 108.6ms | ActiveRecord: 2.6ms)
+
+
+Started GET "/assets/accounts.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /accounts.css - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /application.css - 200 OK (0ms)
+
+
+Started GET "/assets/branches.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /branches.css - 200 OK (0ms)
+
+
+Started GET "/assets/apps.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /apps.css - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /build_results.css - 200 OK (0ms)
+
+
+Started GET "/assets/components.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /components.css - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /deployments.css - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /external_scripts.css - 200 OK (0ms)
+
+
+Started GET "/assets/domains.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /domains.css - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /landscapes.css - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /properties_paths.css - 200 OK (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /scaffolds.css - 200 OK (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /users.css - 200 OK (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /jquery.js - 200 OK (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /jquery_ujs.js - 200 OK (0ms)
+
+
+Started GET "/assets/accounts.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /accounts.js - 200 OK (0ms)
+
+
+Started GET "/assets/apps.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /apps.js - 200 OK (0ms)
+
+
+Started GET "/assets/build_results.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /build_results.js - 200 OK (0ms)
+
+
+Started GET "/assets/components.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /components.js - 200 OK (0ms)
+
+
+Started GET "/assets/branches.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /branches.js - 200 OK (0ms)
+
+
+Started GET "/assets/domains.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /domains.js - 200 OK (0ms)
+
+
+Started GET "/assets/external_scripts.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /external_scripts.js - 200 OK (0ms)
+
+
+Started GET "/assets/deployments.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /deployments.js - 200 OK (0ms)
+
+
+Started GET "/assets/landscapes.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /landscapes.js - 200 OK (0ms)
+
+
+Started GET "/assets/properties_paths.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /properties_paths.js - 200 OK (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /users.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-11 19:29:53 +0300
+Served asset /application.js - 200 OK (0ms)
+
+
+Started PUT "/deployments/generate_command/11" for 127.0.0.1 at 2013-04-11 19:29:55 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "account_id"=>"3", "branch_id"=>"1", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"", "build_results_id"=>"", "commit"=>"show", "id"=>"11"}
+>>>>>>>>>> nil
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1[0m  [["id", "11"]]
+  [1m[35mBranch Load (0.1ms)[0m  SELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mLandscape Load (0.1ms)[0m  [1mSELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1[0m
+  [1m[35mAccount Load (0.1ms)[0m  SELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1  [["id", "3"]]
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mComponent Load (0.1ms)[0m  SELECT "components".* FROM "components" WHERE "components"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mPropertiesPath Load (0.1ms)[0m  [1mSELECT "properties_paths".* FROM "properties_paths" WHERE "properties_paths"."id" = ? LIMIT 1[0m  [["id", ""]]
+Completed 404 Not Found in 4ms
+
+ActiveRecord::RecordNotFound (Couldn't find PropertiesPath with id=):
+  app/controllers/deployments_controller.rb:62:in `generate_command'
+
+
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_trace.erb (0.9ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (0.8ms)
+  Rendered /Users/i061485/.rvm/gems/ruby-2.0.0-p0/gems/actionpack-3.2.13/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.2ms)
+
+
+Started PUT "/deployments/generate_command/11" for 127.0.0.1 at 2013-04-11 19:30:04 +0300
+Processing by DeploymentsController#generate_command as JS
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"RFgfurD4qeqmfxslpmpVmnloW3s7AB1SQOnWrCSGva0=", "app"=>{"landscape_id"=>"6", "account_id"=>"3", "branch_id"=>"1", "user_id"=>"1", "component_id"=>"1"}, "vms_max"=>"1", "vms_min"=>"1", "properties_path_id"=>"1", "build_results_id"=>"1", "commit"=>"show", "id"=>"11"}
+>>>>>>>>>> nil
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."id" = ? LIMIT 1  [["id", "11"]]
+  [1m[36mBranch Load (0.1ms)[0m  [1mSELECT "branches".* FROM "branches" WHERE "branches"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mLandscape Load (0.1ms)[0m  SELECT "landscapes".* FROM "landscapes" WHERE "landscapes"."id" = 6 LIMIT 1
+  [1m[36mAccount Load (0.1ms)[0m  [1mSELECT "accounts".* FROM "accounts" WHERE "accounts"."id" = ? LIMIT 1[0m  [["id", "3"]]
+  [1m[35mUser Load (0.1ms)[0m  SELECT "users".* FROM "users" WHERE "users"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mComponent Load (0.1ms)[0m  [1mSELECT "components".* FROM "components" WHERE "components"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mPropertiesPath Load (0.1ms)[0m  SELECT "properties_paths".* FROM "properties_paths" WHERE "properties_paths"."id" = ? LIMIT 1  [["id", "1"]]
+  [1m[36mBuildResult Load (0.1ms)[0m  [1mSELECT "build_results".* FROM "build_results" WHERE "build_results"."id" = ? LIMIT 1[0m  [["id", "1"]]
+  [1m[35mDomain Load (0.1ms)[0m  SELECT "domains".* FROM "domains" WHERE "domains"."id" = 1 LIMIT 1
+>>>>>>>>>
+ neo deploy ./props.properties -s \\\\iltlvp01.tlv.sap.corp\\dev\... -M 1 -m 1 -a jopa -b TestApp -c test -h netweaver.ondemand.com -u i031410 -p abcd1234
+  Rendered deployments/generate_command.js.erb (0.2ms)
+Completed 200 OK in 37ms (Views: 16.0ms | ActiveRecord: 0.8ms)

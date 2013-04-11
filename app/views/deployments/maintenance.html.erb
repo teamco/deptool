@@ -17,6 +17,14 @@
         </td>
       </tr>
       <tr>
+        <th>Account</th>
+        <td>
+          <%= @data[:account].try(:name) %>
+          <%= f.hidden_field 'account_id', :value => @data[:account].try(:id) %>
+          <%#= f.select 'landscape_id', @data[:landscapes], {:include_blank => 'Please select landscape'} %>
+        </td>
+      </tr>
+      <tr>
         <th>Branch</th>
         <td>
           <%= @data[:app].branch.try(:name) %>
